@@ -16,7 +16,7 @@
     border-top-right-radius: 0.3rem;
 
     background-color: #032ab8;
-    color: #fff;
+    color: #fff !important;
 }
 .stake-calculator-wrap .title-wrap h2.title {
     padding: 0;
@@ -58,7 +58,7 @@
     width: 120px;
     padding: 0px;
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #032ab8;
     font-size: 30px;
     line-height: 30px;
     color: #000;
@@ -89,7 +89,7 @@
     left: 0px;
     width: 0px;
     height: 10px;
-    background-color: #e9b000;
+    background-color: #032ab8;
     display: block;
     transition: all 0.25s ease;
 }
@@ -100,17 +100,17 @@
     height: 20px;
     top: -5px;
     right: 0px;
-    background-color: #e9b000;
+    background-color: #032ab8;
     border-radius: 2px;
     transition: all 0.25s ease;
 }
 .stake-calculator-content .field-row .slider-wrap .slier-bar .slider-progress:hover::after {
-    background-color: #1a4323;
+    background-color: black;
 }
 
 .stake-calculator-content .result-row {
     position: relative;
-    border-bottom: 1px solid #e9b000;
+    border-bottom: 1px solid #032ab8;
 }
 .stake-calculator-content .result-row:after {
     content: "";
@@ -140,13 +140,13 @@
     font-size: 18px;
     line-height: 24px;
     font-weight: bold;
-    color: #1a4323;
+    color: #032ab8;
 }
 .stake-calculator-content .result-row .result-col .result-price {
     font-size: 18px;
     line-height: 24px;
     font-weight: normal;
-    color: #1a4323;
+    color: #032ab8;
 }
 
 .stake-calculator-content .info-row {
@@ -179,7 +179,7 @@
     left: 0px;
     width: 0%;
     height: 7px;
-    background-color: #e9b000;
+    background-color: #032ab8;
     display: block;
     transition: all 0.25s ease;
 }
@@ -190,13 +190,13 @@
     height: 8px;
     top: -1px;
     right: -3.5px;
-    background-color: #e9b000;
+    background-color: #032ab8;
     border-radius: 2px;
     transition: all 0.25s ease;
     z-index: 2;
 }
 .stake-calculator-content .compound-slider-row .compound-slider-wrap .compound-slider-bar:hover::after {
-    background-color: #1a4323;
+    background-color: black;
 }
 .stake-calculator-content .compound-slider-row .compound-markers {
     padding: 0px 0px 20px;
@@ -238,7 +238,7 @@
     height: 0px;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;  
-    border-top: 8px solid #e9b000;
+    border-top: 8px solid #032ab8;
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -254,14 +254,14 @@
     font-size: 16px;
     font-weight: bold;
     color: #fff;
-    background-color: #e9b000;
+    background-color: #032ab8;
     border: none;
     border-radius: 5px;
     transition: all 0.25s ease;
     cursor: pointer;
 }
 .stake-calculator-wrap .button-wrap .stake-calculator-submit-btn:hover {
-    background-color: #08e736;
+    background-color: black;
 }
 
 @media screen and (min-width: 900px) {
