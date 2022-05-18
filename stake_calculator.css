@@ -1,7 +1,6 @@
 .stake-calculator-wrap {
     width: 80%;
     position: relative;
-    box-shadow: 1px 1px 5px #acacac;
     border-radius: 0.3rem !important;
   
 }
@@ -16,7 +15,7 @@
   border-top-left-radius: 0.3rem;
     border-top-right-radius: 0.3rem;
 
-    background-image: linear-gradient(153deg,#e9b000 33%,#f1e1b3);
+    background-color: #032ab8;
     color: #fff;
 }
 .stake-calculator-wrap .title-wrap h2.title {
